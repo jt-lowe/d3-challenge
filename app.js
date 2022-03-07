@@ -176,7 +176,7 @@ function makeResponsive() {
 
 
     // Read CSV
-    d3.csv("assets/data/data.csv").then((paperData, err) => {
+    d3.csv("data.csv").then((paperData, err) => {
 
       if (err) throw err;
 
