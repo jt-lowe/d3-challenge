@@ -20,9 +20,9 @@ function makeResponsive() {
 
     var margin = {
       top: 50,
-      bottom: 150,
+      bottom: 150, // updated from 50 to reflect the area required for the 3 selection options
       right: 50,
-      left: 150
+      left: 150 // updated from 50 to reflect the area required for the 3 selection options
     };
   
     var height = svgHeight - margin.top - margin.bottom;
