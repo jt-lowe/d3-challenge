@@ -23,3 +23,5 @@ The initial scales, axes, points and text are created using our chosenX/YAxis va
 We create event listeners for both the X and Y axes, and define that .on("click") we updated the chosenX/YAxis to become the clicked value. The listener then calls all of the created functions to have the visualisation reflect the new data.
 
 All of the above is wrapped in a responsive function, that redefines the size of the SVG canvas, making it dependant on the size of the window.
+
+The resulting visualisation has been deployed here - https://jt-lowe.github.io/d3-challenge/
